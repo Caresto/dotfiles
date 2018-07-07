@@ -37,8 +37,11 @@ export PATH=$PATH:$HOME/.dotfiles/bin
 # Add homebrew's bin
 export PATH=$PATH:/usr/local/bin
 
-# RVM
-# [[ -s "/Users/cfong/.rvm/scripts/rvm" ]] && source "/Users/cfong/.rvm/scripts/rvm"
+# Adding AndroidHome
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
+# Rbenv
+eval "$(rbenv init -)"
