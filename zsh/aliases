@@ -10,6 +10,7 @@ alias -g G='| grep'
 alias -g L='| less'
 alias -g M='| more'
 #alias adam='vim ~/Dropbox/notes/adam-wathan.md'
+alias devo='vim ~/Dropbox/work/devoluciones.md'
 alias aliases='vim ~/.dotfiles/zsh/aliases'
 alias amend="git commit --amend"
 alias b='bin/rspec'
